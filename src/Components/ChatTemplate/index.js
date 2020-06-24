@@ -10,7 +10,7 @@ import MessageIncoming from "../MessageIncoming";
 let socket;
 
 // The endpoint where socket.io server is running
-const END_POINT = "https://chat-application-123908.herokuapp.com/";
+const END_POINT = "https://chat-app-node-server-123908.herokuapp.com/";
 
 const ChatTemplate = ({ location }) => {
   const [name, setName] = useState("");
